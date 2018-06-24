@@ -1,0 +1,10 @@
+[user]
+	email = ingvast@gmail.com
+	name = Johan Ingvast
+[push]
+	default = simple
+[credential]
+	helper = cache
+[alias]
+	l = log --decorate --graph --oneline
+	ll = log --graph --format='% h %Cgreen% <(10, trunc)% cn%Creset% <(10, "trunc)% cr%Cred%d%Cgreen% s'"
